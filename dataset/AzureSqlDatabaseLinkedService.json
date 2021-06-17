@@ -1,0 +1,39 @@
+{
+	"name": "AzureSqlDatabaseLinkedService",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SystemInformationID",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "Database Version",
+				"type": "nvarchar"
+			},
+			{
+				"name": "VersionDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "BuildVersion"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

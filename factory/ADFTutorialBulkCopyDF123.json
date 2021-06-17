@@ -1,0 +1,9 @@
+{
+	"name": "ADFTutorialBulkCopyDF123",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f3431b4f-ae82-4f0a-aba7-9cfd6815d06a",
+		"tenantId": "061752e3-98aa-4502-a0b5-f57a8a47653a"
+	}
+}
